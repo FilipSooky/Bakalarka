@@ -1,0 +1,677 @@
+[
+  {
+    "name": "a_block_second",
+    "imageResource": "a_second",
+    "rooms": [
+      {
+        "name": "THA02260",
+        "scheduleHours": [
+          {
+            "subject": "subject_seminar_programming",
+            "type": "seminar",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_web_programming",
+            "type": "seminar",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_academic_skills",
+            "type": "seminar",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_programming_in_C",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "b_block_first",
+    "imageResource": "b_first",
+    "rooms": [
+      {
+        "name": "THB01140",
+        "scheduleHours": [
+          {
+            "subject": "subject_unix_systems",
+            "type": "exercise",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_principles_of_computer_engineering",
+            "type": "seminar",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_introduction_computer_systems",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_big_data_processing_technologies",
+            "type": "exercise",
+            "semester": 1,
+            "degree": "master",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_operating_systems",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_computer_networks",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_academic_english",
+            "type": "seminar",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_concepts_of_computer_security",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_web_applications_on_java_platform",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_applications_of_computer_networks",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_internet_of_things",
+            "type": "exercise",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_it_project_management",
+            "type": "exercise",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          }
+        ]
+      },
+      {
+        "name": "THB01120",
+        "scheduleHours": [
+          {
+            "subject": "subject_programming_microprocessor_systems",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_programming_industrial_control_systems",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_applications_of_industrial_control_systems",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_programming_applications_with_sensors",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          }
+        ]
+      },
+      {
+        "name": "THB01130",
+        "scheduleHours": [
+          {
+            "subject": "subject_coding_and_displaying_information",
+            "type": "exercise",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_mathematical_principles_of_language_and_machine_learning",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_computer_graphics",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_formal_languages_and_automata",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_modeling_and_simulation",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_artificial_intelligence",
+            "type": "exercise",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "b_block_second",
+    "imageResource": "b_second",
+    "rooms": [
+      {
+        "name": "THB02120",
+        "scheduleHours": [
+          {
+            "subject": "subject_modeling_and_simulation",
+            "type": "lecture",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_computer_systems",
+            "type": "lecture",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_operating_systems",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_computer_networks",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_concepts_of_computer_security",
+            "type": "lecture",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_applications_of_industrial_control_systems",
+            "type": "lecture",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "s_block_first",
+    "imageResource": "s_first",
+    "rooms": [
+      {
+        "name": "THS01090",
+        "scheduleHours": [
+          {
+            "subject": "subject_data_structures_and_classes_in_python",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_programing",
+            "type": "exercise",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_seminar_programming",
+            "type": "seminar",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_scripting_langauges",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_object_technologies",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_frontend_technologies",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_algorithm_complexity",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_mobile_application_development",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_game_development_environments",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_3d_application_development",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          }
+        ]
+      },
+      {
+        "name": "THS01100",
+        "scheduleHours": [
+          {
+            "subject": "subject_programing",
+            "type": "exercise",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_database_systems",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_database_systems",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_data_structures_and_classes_in_java",
+            "type": "exercise",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_introduction_to_software_engineering",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_applied_computer_graphics",
+            "type": "exercise",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_database_technologies",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_backend_technologies",
+            "type": "exercise",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_computer_data_analysis",
+            "type": "exercise",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_design_patterns",
+            "type": "exercise",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_software_testing",
+            "type": "exercise",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ground_floor",
+    "imageResource": "base_mapa",
+    "rooms": [
+      {
+        "name": "THP00020",
+        "scheduleHours": [
+          {
+            "subject": "subject_big_data_processing_technologies",
+            "type": "lecture",
+            "semester": 1,
+            "degree": "master",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_software_project_management",
+            "type": "lecture",
+            "semester": 1,
+            "degree": "master",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_data_structures_and_classes_in_java",
+            "type": "lecture",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_formal_languages_and_automata",
+            "type": "lecture",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_introduction_to_software_engineering",
+            "type": "lecture",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_object_technologies",
+            "type": "lecture",
+            "semester": 3,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_programming_microprocessor_systems",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_programming_industrial_control_systems",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_backend_technologies",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_database_technologies",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_algorithm_complexity",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_computer_data_analysis",
+            "type": "lecture",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_seminar_to_bachelor_thesis_I",
+            "type": "lecture",
+            "semester": 5,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          },
+          {
+            "subject": "subject_artificial_intelligence",
+            "type": "lecture",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "20:00",
+            "timeTo": "21:30"
+          },
+          {
+            "subject": "subject_internet_of_things",
+            "type": "lecture",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_seminar_to_bachelor_thesis_II",
+            "type": "lecture",
+            "semester": 6,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          }
+        ]
+      },
+      {
+        "name": "THP00060",
+        "scheduleHours": [
+          {
+            "subject": "subject_programing",
+            "type": "lecture",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "08:00",
+            "timeTo": "09:30"
+          },
+          {
+            "subject": "subject_coding_and_displaying_information",
+            "type": "lecture",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "10:00",
+            "timeTo": "11:30"
+          },
+          {
+            "subject": "subject_web_programming",
+            "type": "lecture",
+            "semester": 1,
+            "degree": "bachelor",
+            "timeFrom": "12:00",
+            "timeTo": "13:30"
+          },
+          {
+            "subject": "subject_database_systems",
+            "type": "lecture",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "14:00",
+            "timeTo": "15:30"
+          },
+          {
+            "subject": "subject_scripting_langauges",
+            "type": "lecture",
+            "semester": 2,
+            "degree": "bachelor",
+            "timeFrom": "16:00",
+            "timeTo": "17:30"
+          },
+          {
+            "subject": "subject_mobile_application_development",
+            "type": "lecture",
+            "semester": 4,
+            "degree": "bachelor",
+            "timeFrom": "18:00",
+            "timeTo": "19:30"
+          }
+        ]
+      }
+    ]
+  }
+]

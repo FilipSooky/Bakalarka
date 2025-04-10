@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Multilanguage UKF Guide</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_message">Welcome to the UKF Students Guide!</string>
+    <string name="choose_language">Choose language</string>
+    <string name="change_language">Language</string>
+    <string name="cancel">Cancel</string>
+    <string name="language_en">English</string>"
+    <string name="language_sk">Slovak</string>"
+    <string name="language_uk">Ukrainian</string>"
+    <string name="language_ru">Russian</string>"
+    <string name="language_de">German</string>"
+    <string name="language_fr">French</string>"
+    <string name="language_es">Spanish</string>
+    <string name="not_found">Subject not found</string>
+    <string name="no_room_for_subject">This subject is not taught in any room</string>
+    <string name="no_rooms_for_selected_semester">There are no rooms with your subjects in this semester</string>
+    <string name="choose_semester">Select semester</string>
+    <string name="floor_maps">University block maps with rooms</string>
+    <string name="search_home_subject">Search for a subjects</string>
+    <string name="home">Home</string>"
+    <string name="schedule">Schedule</string>"
+    <string name="locations">Locations</string>"
+    <string name="events">Events</string>"
+    <string name="info">Info</string>"
+    <string name="exit">Exit</string>
+    <string name="location_1">UKF</string>
+    <string name="select">Select your university block</string>
+    <string name="select_room">Select room</string>
+    <string name="search_subject">Search subject</string>
+    <string name="ok">OK</string>
+    <string name="event1">ŠPUKFEST</string>
+    <string name="event1Desc">In that case, we invite you to the outdoor spaces of the iconic 🏟️ Nitra Amphitheatre 🚏, where on 30.04.2025 from 17:00-22:00 local time⏰ we will unleash fun like never before!
+This year, the delight in our ears will be provided by names such as Rocková škola, who will open our festival🎙️, Malalata, who always move us with their Balkan beats🐐, Gleb, whose drum’n’base tones we all love so much🎧, luca brassi10x with his raw bars 💶🚨 and the unmistakable DJ EKG will close the evening!💣
+    </string>
+    <string name="event2">Game Jam</string>
+    <string name="event2Desc">Are you ready for the biggest gaming challenge of the year?
+    Join us, the Playful Computer Scientists from the Game Without Borders project, and create a game in 24 hours that will amaze even seasoned game developers!
+    </string>
+    <string name="subjects_in_room">Current subjects taught in the room</string>
+    <string name="seminar">Seminar</string>
+    <string name="lecture">Lecture</string>
+    <string name="exercise">Exercise</string>
+    <string name="bachelor">Bachelor</string>
+    <string name="master">Master</string>
+    <string name="b_block_first">B - First floor</string>
+    <string name="b_block_second">B - Second floor</string>
+    <string name="s_block_first">S - First floor</string>
+    <string name="a_block_second">A - Second floor</string>
+    <string name="ground_floor">Ground floor</string>
+    <string name="THB01140" translatable="false">THB01140</string>
+    <string name="THB01130" translatable="false">THB01130</string>
+    <string name="THB01120" translatable="false">THB01120</string>
+    <string name="THB02120" translatable="false">THB02120</string>
+    <string name="THA02260" translatable="false">THA02260</string>
+    <string name="THS01100" translatable="false">THS01100</string>
+    <string name="THS01090" translatable="false">THS01090</string>
+    <string name="THP00020" translatable="false">THP00020</string>
+    <string name="THP00060" translatable="false">THP00060</string>
+    <string name="subject_big_data_processing_technologies">Big Data Processing Technologies</string>
+    <string name="subject_software_project_management">Software Project Management</string>
+    <string name="subject_information_security">Information security</string>
+    <string name="subject_logic_system_computing">Logical systems of computers</string>
+    <string name="subject_data_structures_and_classes_in_java">Data structures and classes in Java</string>
+    <string name="subject_data_structures_and_classes_in_python">Data structures and classes in Python</string>
+    <string name="subject_programing">Programming</string>
+    <string name="subject_web_programming">Web languages</string>
+    <string name="subject_coding_and_displaying_information">Coding and displaying information</string>
+    <string name="subject_database_systems">Database systems</string>
+    <string name="subject_scripting_langauges">Scripting languages</string>
+    <string name="subject_introduction_computer_systems">Introduction to computer systems</string>
+    <string name="subject_mathematical_principles_of_language_and_machine_learning">Mathematical principles of language processing and machine learning</string>
+    <string name="subject_artificial_intelligence">Artificial Intelligence</string>
+    <string name="subject_introduction_to_software_engineering">Introduction to software engineering</string>
+    <string name="subject_formal_languages_and_automata">Formal languages and automata</string>
+    <string name="subject_frontend_technologies">Frontend technologies</string>
+    <string name="subject_backend_technologies">Backend technologies</string>
+    <string name="subject_mobile_application_development">Mobile application development</string>
+    <string name="subject_seminar_programming">Programming seminar</string>
+    <string name="subject_algorithm_complexity">Algorithm complexity</string>
+    <string name="subject_academic_skills">Academic skills</string>
+    <string name="subject_mathematics_for_informatics_1">Mathematics for Informatics 1</string>
+    <string name="subject_principles_of_computer_engineering">Principles of computer engineering</string>
+    <string name="subject_unix_systems">Unix systems</string>
+    <string name="subject_mathematics_for_informatics_2">Mathematics for Informatics 2</string>
+    <string name="subject_computer_graphics">Computer graphics</string>
+    <string name="subject_computer_systems">Computer systems</string>
+    <string name="subject_modeling_and_simulation">Modeling and simulation</string>
+    <string name="subject_object_technologies">Object technologies</string>
+    <string name="subject_programming_in_C">Programming in C</string>
+    <string name="subject_applied_computer_graphics">Applied computer graphics</string>
+    <string name="subject_operating_systems">Operating systems</string>
+    <string name="subject_computer_networks">Computer networks</string>
+    <string name="subject_database_technologies">Database technologies</string>
+    <string name="subject_programming_microprocessor_systems">Programming microprocessor systems</string>
+    <string name="subject_programming_industrial_control_systems">Programming industrial control systems</string>
+    <string name="subject_academic_english">Academic English</string>
+    <string name="subject_game_development_environments">Game development environments</string>
+    <string name="subject_computer_data_analysis">Computer data analysis</string>
+    <string name="subject_concepts_of_computer_security">Concepts of computer security</string>
+    <string name="subject_professional_practice">Professional practice</string>
+    <string name="subject_seminar_to_bachelor_thesis_I">Seminar to bachelor thesis I.</string>
+    <string name="subject_applications_of_industrial_control_systems">Applications of industrial control systems</string>
+    <string name="subject_applications_of_computer_networks">Applications of computer networks</string>
+    <string name="subject_programming_applications_with_sensors">Programming applications with sensors</string>
+    <string name="subject_3D_application_development">3D application development</string>
+    <string name="subject_web_applications_on_java_platform">Web applications on Java platform</string>
+    <string name="subject_internet_of_things">Internet of things</string>
+    <string name="subject_seminar_to_bachelor_thesis_II">Seminar to bachelor thesis II.</string>
+    <string name="subject_IT_project_management">IT project management</string>
+    <string name="subject_design_patterns">Design patterns</string>
+    <string name="subject_software_testing">Software testing</string>
+    <string name="academic_year_schedule">Academic Year Schedule</string>
+    <string name="academic_year_opening">Solemn Opening of the Academic Year (start of teaching in the winter semester): September 23, 2024</string>
+    <string name="student_registrations">Student Registrations:</string>
+    <string name="registrations_details">Registrations are carried out electronically or according to the faculty schedule set by the dean. The procedure can be found in the article Study Registration.</string>
+    <string name="winter_semester">Winter Semester:</string>
+    <string name="winter_semester_teaching_period">Teaching Period*: September 23, 2024 – December 21, 2024 (13 weeks)</string>
+    <string name="winter_semester_exam_period">Exam Period: January 7, 2025 – February 17, 2025</string>
+    <string name="teaching_adjustment">In specific cases, teaching may be adjusted according to the faculty dean\'s decision.</string>
+    <string name="bachelor_master_thesis_topics_deadline">Deadline for supervisors to announce bachelor\'s and master\'s thesis topics: October 19, 2024</string>
+    <string name="bachelor_master_thesis_approval_deadline">Deadline for approval and publication of bachelor\'s and master\'s thesis topics: October 31, 2024</string>
+    <string name="bachelor_master_thesis_registration_deadline">Deadline for registering for a master\'s or bachelor\'s thesis topic: November 30, 2024</string>
+    <string name="summer_semester_course_pre_registrations">Summer Semester Course Pre-registrations: October 14, 2024 – November 8, 2024</string>
+    <string name="summer_semester_schedule_release">Summer Semester Schedule Release: January 26, 2025</string>
+    <string name="summer_semester_schedule_registration">Student Registration for the Schedule: February 14, 2025</string>
+    <string name="university_holiday">University-wide Holiday: December 23, 2024 – January 3, 2025 (return to work January 7, 2025)</string>
+    <string name="immatriculations">Immatriculations</string>
+    <string name="fpvai_immatriculation">FPVaI November 14, 2024 at 9:00 AM</string>
+    <string name="fsvaz_immatriculation">FSVaZ November 14, 2024 at 11:30 AM</string>
+    <string name="fss_immatriculation">FSŠ November 12, 2024 at 11:30 AM</string>
+    <string name="ff_immatriculation">FF November 13, 2024 at 10:00 AM and 1:00 PM</string>
+    <string name="pf_immatriculation">PF November 12, 2024 at 9:00 AM</string>
+    <string name="nitra_student_days">Nitra Student Days: November 4 – 22, 2024 (date is approximate, will be adjusted to the ŠDNU program)</string>
+    <string name="public_holidays">Public Holidays and Non-working Days:</string>
+    <string name="all_saints_day">November 1, 2024 – Friday – All Saints\' Day</string>
+    <string name="freedom_and_democracy_day">November 17, 2024 – Sunday – Struggle for Freedom and Democracy Day</string>
+    <string name="three_kings_day">January 6, 2025 – Monday – Epiphany (Three Kings\' Day)</string>
+    <string name="good_friday">April 18, 2025 – Friday – Good Friday</string>
+    <string name="easter_monday">April 21, 2025 – Monday – Easter Monday</string>
+    <string name="labor_day">May 1, 2025 – Thursday – Labor Day</string>
+    <string name="victory_day">May 8, 2025 – Thursday – Victory over Fascism Day</string>
+    <string name="cyril_methodius_day">July 5, 2025 – Saturday – Saints Cyril and Methodius Day</string>
+    <string name="summer_semester_title">Summer Semester:</string>
+    <string name="summer_semester_teaching_period_title">Teaching Period:</string>
+    <string name="summer_semester_teaching_period_dates">February 17, 2025 – May 17, 2025 (13 weeks)</string>
+    <string name="summer_semester_teaching_period_graduating_dates">Graduating years of Bc. and Mgr. studies – all faculties: February 17, 2025 – April 17, 2025 (9 weeks)</string>
+    <string name="summer_semester_exam_period_title">Exam Period:</string>
+    <string name="summer_semester_exam_period_dates">May 19, 2025 – July 11, 2025 (8 weeks)</string>
+    <string name="summer_semester_exam_period_bc_dates">Graduating years of Bc. studies – all faculties: April 17, 2025 – May 17, 2025 (4 weeks)</string>
+    <string name="summer_semester_exam_period_mgr_dates">Graduating years of Mgr. studies – all faculties: April 17, 2025 – May 10, 2025 (3 weeks)</string>
+    <string name="winter_semester_pre_registration_dates">Pre-registration for the Winter Semester 2025/2026: April 7 – May 2, 2025</string>
+    <string name="winter_semester_schedule_release_dates">Winter Semester Schedule Release: July 4, 2025</string>
+    <string name="winter_semester_schedule_registration_dates">Student Registration for the Winter Semester Schedule: September 19, 2025</string>
+
+
+</resources>

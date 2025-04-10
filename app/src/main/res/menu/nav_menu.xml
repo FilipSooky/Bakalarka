@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_main"
+            android:title="@string/home"
+            />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_schedule"-->
+<!--            android:icon="@drawable/nav_schedule"-->
+<!--            android:title="@string/schedule" />-->
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/nav_location"
+            android:title="@string/locations" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/nav_events"
+            android:title="@string/events" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="@string/info" />
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_exit"
+                android:title="@string/exit" />
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_language"
+                android:title="@string/change_language" />
+        </menu>
+    </item>
+
+</menu>

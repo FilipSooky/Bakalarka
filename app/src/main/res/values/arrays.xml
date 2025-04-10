@@ -1,0 +1,22 @@
+<resources>
+    <string-array name="event_titles">
+        <item>@string/event1</item>
+        <item>@string/event2</item>
+    </string-array>
+    <string-array name="event_descriptions">
+        <item>@string/event1Desc</item>
+        <item>@string/event2Desc</item>
+    </string-array>
+    <string-array name="event_date">
+        <item>2025-04-30</item>
+        <item>2025-05-24</item>
+    </string-array>
+    <string-array name="event_times_from">
+        <item>17:00</item>
+        <item>16:00</item>
+    </string-array>
+    <string-array name="event_times_to">
+        <item>22:00</item>
+        <item>15:00</item>
+    </string-array>
+</resources>
