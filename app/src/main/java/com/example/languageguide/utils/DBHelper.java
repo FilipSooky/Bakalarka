@@ -26,9 +26,9 @@ import java.util.List;
 public class DBHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "events.db";
     private static final int DATABASE_VERSION = 8;
-    private static final String JSON_URL = "http://192.168.1.23/arrays.json"; // 192.168.1.23
-    private static final String FLOORS_JSON_URL = "http://192.168.1.23/floors.json";
-    private static final String INFO_JSON_URL = "http://192.168.1.23/info.json";
+    private static final String JSON_URL = //"http://YOUR_IP/arrays.json"; 
+    private static final String FLOORS_JSON_URL = //"http://YOUR_IP/floors.json";
+    private static final String INFO_JSON_URL = //"http://YOUR_IP/info.json";
 
     public static final String TABLE_EVENTS = "events";
     public static final String COLUMN_ID = "id";
