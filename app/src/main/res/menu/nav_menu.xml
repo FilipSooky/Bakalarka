@@ -12,6 +12,7 @@
             android:title="@string/home"
             />
 
+
 <!--        <item-->
 <!--            android:id="@+id/nav_schedule"-->
 <!--            android:icon="@drawable/nav_schedule"-->
@@ -31,6 +32,11 @@
             android:id="@+id/nav_about"
             android:icon="@drawable/nav_about"
             android:title="@string/info" />
+
+        <item
+            android:id="@+id/nav_programs"
+            android:title="@string/study_programs"
+            android:icon="@drawable/ic_menu_book" />
     </group>
 
     <item

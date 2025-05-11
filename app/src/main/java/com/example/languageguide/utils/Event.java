@@ -1,5 +1,7 @@
 package com.example.languageguide.utils;
 
+import android.content.Context;
+
 public class Event {
     private int id;
     private String title;
@@ -8,6 +10,8 @@ public class Event {
     private String timeFrom;
     private String timeTo;
 
+    public Event() {
+    }
     public Event(int id, String title, String description, String date, String timeFrom, String timeTo) {
         this.id = id;
         this.title = title;
@@ -47,6 +51,14 @@ public class Event {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getTranslatedTitle(Context context) {
+        return Utils.getTranslatedString(context, this.title);
+    }
+
+    public String getTranslatedDescription(Context context) {
+        return Utils.getTranslatedString(context, this.description);
     }
 
     public String getTimeFrom() {

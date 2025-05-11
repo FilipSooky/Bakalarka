@@ -21,6 +21,7 @@ import android.widget.LinearLayout;
 import android.widget.SearchView;
 import android.widget.Spinner;
 
+import com.example.languageguide.utils.FloorDBManager;
 import com.example.languageguide.utils.Utils;
 import com.example.languageguide.utils.locations.Floor;
 import com.example.languageguide.utils.locations.Room;
@@ -37,6 +38,7 @@ public class LocationsFragment extends Fragment {
     private SearchView searchView;
     private List<Floor> floors = new ArrayList<>();
     private Spinner spinnerSemester;
+    private FloorDBManager floorDBManager;
     private int selectedSemester = 1;
     @Nullable
     @Override
@@ -57,7 +59,19 @@ public class LocationsFragment extends Fragment {
         buttonFloorSelection = view.findViewById(R.id.buttonFloorSelection);
         buttonFloorSelection.setText(getString(R.string.select));
 
-        floors = loadFloorsFromJson(requireContext());
+
+        floorDBManager = new FloorDBManager(requireContext());
+        floorDBManager.open();
+        floorDBManager.refreshFloors(success -> {
+            if (success) {
+                floors = floorDBManager.getAllFloors();
+                if (floors != null && !floors.isEmpty()) {
+                    buttonFloorSelection.setText(floors.get(0).getName(getContext()));
+                }
+            } else {
+                Log.e("LocationsFragment", "Failed to load floors from database");
+            }
+        });
 
         buttonFloorSelection.setOnClickListener(this::showFloorSelectionMenu);
 
@@ -76,7 +90,13 @@ public class LocationsFragment extends Fragment {
 
         return view;
     }
-
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        if (floorDBManager != null) {
+            floorDBManager.close();
+        }
+    }
     private void setupSpinner(View view)
     {
         spinnerSemester = view.findViewById(R.id.spinnerSemester);

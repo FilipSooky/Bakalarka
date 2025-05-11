@@ -1,5 +1,6 @@
 package com.example.languageguide.utils.adapters;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +15,11 @@ import com.example.languageguide.utils.Event;
 import java.util.List;
 
 public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHolder> {
-    private final List<Event> eventList;
-    public EventAdapter(List<Event> eventList) {
+    private List<Event> eventList;
+    private Context context;
+
+    public EventAdapter(Context context, List<Event> eventList) {
+        this.context = context;
         this.eventList = eventList;
     }
 
@@ -29,8 +33,8 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHol
     @Override
     public void onBindViewHolder(@NonNull EventViewHolder holder, int position) {
         Event event = eventList.get(position);
-        holder.textViewTitle.setText(event.getTitle());
-        holder.textViewDescription.setText(event.getDescription());
+        holder.textViewTitle.setText(event.getTranslatedTitle(context));
+        holder.textViewDescription.setText(event.getTranslatedDescription(context));
         holder.textViewDate.setText(event.getDate());
         holder.textViewTime.setText(event.getTimeFrom() + " - " + event.getTimeTo());
     }

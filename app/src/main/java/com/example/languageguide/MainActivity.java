@@ -110,6 +110,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             selectedFragment = new InfoFragment();
         } else if (id == R.id.nav_location) {
             selectedFragment = new LocationsFragment();
+        } else if (id == R.id.nav_programs) {
+            selectedFragment = new StudyProgramsFragment();
         } else if (id == R.id.nav_logout) {
             selectedFragment = new HomeFragment();
             finishAffinity();

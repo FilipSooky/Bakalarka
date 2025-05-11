@@ -1,0 +1,170 @@
+{
+  "academic_year_schedule": {
+    "font_size": 20,
+    "font_style": "bold"
+  },
+  "academic_year_opening": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "student_registrations": {
+    "font_size": 18,
+    "font_style": "bold"
+  },
+  "registrations_details": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "winter_semester": {
+    "font_size": 18,
+    "font_style": "bold"
+  },
+  "winter_semester_teaching_period": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "winter_semester_exam_period": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "teaching_adjustment": {
+    "font_size": 16,
+    "font_style": "italic"
+  },
+  "bachelor_master_thesis_topics_deadline": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "bachelor_master_thesis_approval_deadline": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "bachelor_master_thesis_registration_deadline": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_course_pre_registrations": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_schedule_release": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_schedule_registration": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "university_holiday": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "immatriculations": {
+    "font_size": 18,
+    "font_style": "bold"
+  },
+  "fpvai_immatriculation": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "fsvaz_immatriculation": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "fss_immatriculation": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "ff_immatriculation": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "pf_immatriculation": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "nitra_student_days": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "public_holidays": {
+    "font_size": 18,
+    "font_style": "bold"
+  },
+  "all_saints_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "freedom_and_democracy_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "three_kings_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "good_friday": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "easter_monday": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "labor_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "victory_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "cyril_methodius_day": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_title": {
+    "font_size": 18,
+    "font_style": "bold"
+  },
+  "summer_semester_teaching_period_title": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_teaching_period_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_teaching_period_graduating_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_exam_period_title": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_exam_period_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_exam_period_bc_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "summer_semester_exam_period_mgr_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "winter_semester_pre_registration_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "winter_semester_schedule_release_dates": {
+    "font_size": 16,
+    "font_style": null
+  },
+  "winter_semester_schedule_registration_dates": {
+    "font_size": 16,
+    "font_style": null
+  }
+}

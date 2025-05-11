@@ -20,6 +20,20 @@
     <string name="choose_semester">Select semester</string>
     <string name="floor_maps">University block maps with rooms</string>
     <string name="search_home_subject">Search for a subjects</string>
+    <string name="study_programs">Study programs</string>
+    <string name="search_study_programs">Search study for program</string>ň
+    <string name="sp_aplikovana_informatika_nazov">Applied Informatics</string>
+    <string name="sp_aplikovana_informatika_typ">Bachelor</string>
+    <string name="sp_aplikovana_informatika_forma">Full-time</string>
+    <string name="sp_aplikovana_informatika_popis">Focus on software development.</string>
+    <string name="sp_manazment_informatika_nazov">Management and Informatics</string>
+    <string name="sp_manazment_informatika_typ">Bachelor</string>
+    <string name="sp_manazment_informatika_forma">Full-time</string>
+    <string name="sp_manazment_informatika_popis">Combination of economics and IT.</string>
+    <string name="sp_pocitacove_siete_nazov">Computer Networks</string>
+    <string name="sp_pocitacove_siete_typ">Master</string>
+    <string name="sp_pocitacove_siete_forma">Full-time</string>
+    <string name="sp_pocitacove_siete_popis">Focus on networks and security.</string>
     <string name="home">Home</string>"
     <string name="schedule">Schedule</string>"
     <string name="locations">Locations</string>"
@@ -154,6 +168,7 @@ This year, the delight in our ears will be provided by names such as Rocková š
     <string name="winter_semester_pre_registration_dates">Pre-registration for the Winter Semester 2025/2026: April 7 – May 2, 2025</string>
     <string name="winter_semester_schedule_release_dates">Winter Semester Schedule Release: July 4, 2025</string>
     <string name="winter_semester_schedule_registration_dates">Student Registration for the Winter Semester Schedule: September 19, 2025</string>
+    <string name="title_activity_main2">MainActivity2</string>
 
 
 </resources>
